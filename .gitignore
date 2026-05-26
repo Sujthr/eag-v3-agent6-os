@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+*.env
+
+# Generated state
+agent6_project/state/artifacts/
+agent6_project/state/memory.json
+agent6_project/logs/
+usage.json
+
+# Test cache
+.pytest_cache/
+agent6_project/.pytest_cache/
+5e4a8833-292d-4ce5-be97-749c7656bdbf/llm_gatewayV3/tests/__pycache__/
+
+# Gateway DB (generated at runtime)
+*.db
+
+# Archives / docs (not source code)
+*.zip
+*.pdf
+*.docx
+
+# Sandbox runtime files
+sandbox/
+agent6_project/sandbox/
