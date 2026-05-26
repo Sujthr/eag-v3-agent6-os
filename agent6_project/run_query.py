@@ -24,13 +24,13 @@ sys.path.insert(0, str(_DIR))
 _QUERIES: dict[str, tuple[str, Path]] = {
     "A":  ("Query A — Artifact Attachment (Claude Shannon Wikipedia)",
            _DIR / "queries" / "A.txt"),
-    "B":  ("Query B — Planning (Weekend Trip to Goa)",
+    "B":  ("Query B — Weather-aware Planning (Tokyo weekend activities)",
            _DIR / "queries" / "B.txt"),
-    "C1": ("Query C1 — Persistent Memory: Store preference (Run 1)",
+    "C1": ("Query C1 — Persistent Memory: Store mom's birthday (Run 1)",
            _DIR / "queries" / "C1.txt"),
-    "C2": ("Query C2 — Persistent Memory: Recall preference (Run 2)",
+    "C2": ("Query C2 — Persistent Memory: Recall mom's birthday (Run 2)",
            _DIR / "queries" / "C2.txt"),
-    "D":  ("Query D — Multi-source Synthesis (Claude vs GPT vs Gemini)",
+    "D":  ("Query D — Multi-source Synthesis (Python asyncio best practices)",
            _DIR / "queries" / "D.txt"),
 }
 

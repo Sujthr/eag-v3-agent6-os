@@ -1,1 +1,1 @@
-Plan a weekend trip to Goa. Use weather as a constraint.
+Find 3 family-friendly things to do in Tokyo this weekend. Check Saturday's weather forecast there and tell me which one is most appropriate.
