@@ -37,3 +37,39 @@ agent6_project/.pytest_cache/
 # Sandbox runtime files
 sandbox/
 agent6_project/sandbox/
+
+# --- added by claude-git-sync ---
+node_modules/
+out/
+.next/
+.nuxt/
+.cache/
+.DS_Store
+Thumbs.db
+# secrets (never commit)
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.pfx
+*.p12
+*.keystore
+*.jks
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+*.credentials
+credentials.json
+serviceAccount*.json
+.npmrc
+.pypirc
+*.tfstate
+*.tfstate.*
+# re-include template/sample files (these negations must stay last)
+!*.example
+!*.sample
+!*.template
+!*.dist
+!*.tpl
